@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*
+margin binnen container
+felxbasis binnen container
+binnen container margin
+inner container meestal column
+
+
+*/
+
+header {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 75px;
+    padding-top: 75px;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+}
+nav {
+
+}
+
+.sectionformodel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.articlearea {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+}
+
+footer {
+    background-color: black;
+}
